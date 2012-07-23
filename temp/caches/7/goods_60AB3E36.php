@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:32:"D:/wamp/www/themes/car/goods.dwt";i:1;s:46:"D:/wamp/www/themes/car/library/page_header.lbi";i:2;s:48:"D:/wamp/www/themes/car/library/category_tree.lbi";i:3;s:49:"D:/wamp/www/themes/car/library/goods_fittings.lbi";i:4;s:48:"D:/wamp/www/themes/car/library/goods_article.lbi";i:5;s:51:"D:/wamp/www/themes/car/library/goods_attrlinked.lbi";i:6;s:42:"D:/wamp/www/themes/car/library/history.lbi";i:7;s:48:"D:/wamp/www/themes/car/library/goods_gallery.lbi";i:8;s:47:"D:/wamp/www/themes/car/library/bought_goods.lbi";i:9;s:43:"D:/wamp/www/themes/car/library/comments.lbi";i:10;s:46:"D:/wamp/www/themes/car/library/page_footer.lbi";}s:7:"expires";i:1342535133;s:8:"maketime";i:1342531533;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:37:"D:/wamp/www/cars/themes/car/goods.dwt";i:1;s:51:"D:/wamp/www/cars/themes/car/library/page_header.lbi";i:2;s:53:"D:/wamp/www/cars/themes/car/library/category_tree.lbi";i:3;s:54:"D:/wamp/www/cars/themes/car/library/goods_fittings.lbi";i:4;s:53:"D:/wamp/www/cars/themes/car/library/goods_article.lbi";i:5;s:56:"D:/wamp/www/cars/themes/car/library/goods_attrlinked.lbi";i:6;s:47:"D:/wamp/www/cars/themes/car/library/history.lbi";i:7;s:53:"D:/wamp/www/cars/themes/car/library/goods_gallery.lbi";i:8;s:52:"D:/wamp/www/cars/themes/car/library/bought_goods.lbi";i:9;s:48:"D:/wamp/www/cars/themes/car/library/comments.lbi";i:10;s:51:"D:/wamp/www/cars/themes/car/library/page_footer.lbi";}s:7:"expires";i:1342783790;s:8:"maketime";i:1342780190;}<!DOCTYPE html>
 <html>
 <head>
 <meta name="Generator" content=" " />
@@ -288,9 +288,6 @@ document.getElementById('history_list').innerHTML = '您已清空最近浏览过
      <form action="javascript:addToCart(1)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
      <div class="clearfix">
       <p class="f_l">指南者S800导航仪</p>
-      <p class="f_r">
-            <a href="goods.php?id=2&amp;cid=2"><img alt="prev" src="themes/car/images/up.gif" /></a>
-                  </p>
       </div>
       <ul>
              <li class="clearfix">
@@ -431,7 +428,7 @@ var minute = "分钟";
 var second = "秒";
 var end = "结束";
 var goodsId = 1;
-var now_time = 1342531533;
+var now_time = 1342780190;
 onload = function(){
   changePrice();
   fixpng();
